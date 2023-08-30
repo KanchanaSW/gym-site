@@ -15,7 +15,6 @@ const Link = ({
 }: Props) => {
     const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage
 
-
     return (
         <AnchorLink
             className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""} 
